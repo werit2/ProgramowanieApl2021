@@ -8,3 +8,6 @@ Założenia projektu:
 -Wybierany język (ENG, DEU, ESP)
 -Wybór z którego języka chcemy tłumaczyć POL-> ENG czy ENG -> POL
 -W trakcie sesji pytania się nie powtarzają i są w losowej kolejności
+
+DLaczego nie ma enterów? Tutaj ten sam plik tekstowy:
+[tekst1.txt](https://github.com/werit2/ProgramowanieApl2021/files/7396036/tekst1.txt)
