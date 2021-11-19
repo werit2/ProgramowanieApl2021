@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "quizdialog.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -45,6 +46,9 @@ void MainWindow::on_StworzButton_clicked()
 
 void MainWindow::on_pytajButton_clicked()
 {
+    Quizdialog quizdialo;
+    quizdialo.setModal(true);
+    quizdialo.exec();
 
 }
 
@@ -56,10 +60,11 @@ void MainWindow::on_showButton_clicked()
         QMessageBox::warning(this,"Warning", "Cannot open file. "+file.errorString());
         return;
     }
-    QTextStream in007(&file);
+    QTextStream in007(&file); //wczytywanie danych z pliku do zmiennej in007
     QString text = in007.readAll();
 
     ui->textBrowser->setText(text);
     file.close();
 }
+
 

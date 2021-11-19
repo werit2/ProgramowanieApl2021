@@ -11,13 +11,16 @@ CONFIG += c++11
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    pytajnik.cpp
+    pytajnik.cpp \
+    quizdialog.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    quizdialog.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    quizdialog.ui
 
 TRANSLATIONS += \
     nienazwany1_en_GB.ts

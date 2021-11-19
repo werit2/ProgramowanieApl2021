@@ -2,10 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QFile>
-#include <QFileDialog>
-#include <QTextStream>
-#include <QMessageBox>
+#include <QFile> //do obslugi plikow
+#include <QFileDialog> // okno wyboru pliku
+#include <QTextStream> // do wczytywania tekstu z pliku
+#include <QMessageBox> //do komunikatu o bledzie przy otwarciu pliku
 
 
 QT_BEGIN_NAMESPACE
